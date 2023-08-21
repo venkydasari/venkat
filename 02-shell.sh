@@ -8,7 +8,7 @@ R="\e[31m"
 G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
-if [$USERID -ne 0];
+if [ $USERID -ne 0 ];
 then
 echo -e "$R error::Please install with admin access $N"
 exit 1
